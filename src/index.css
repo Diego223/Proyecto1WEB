@@ -1,0 +1,307 @@
+
+
+
+
+.GridH{
+  display: grid;
+  grid-template-areas: 'uno dos tres cuatro cinco seis';
+  grid-template-columns: 1.2fr 1.3fr 1fr 1.3fr 1fr 1.2fr;
+  grid-template-areas: 'uno dos tres cuatro cinco seis';
+  grid-template-rows:60px 70px 50px;
+  grid-auto-rows: 75px;
+  grid-gap:5px;
+  font-size: 115%;
+  font-family: 'Lobster', cursive;
+
+
+}
+.Cubos{
+  display: grid;
+  grid-template-areas:'uno dos tres cuatro';
+  grid-template-rows:125px 125px 125px 50px;
+  grid-template-areas:'uno dos tres cuatro cinco seis';
+  grid-template-columns: 190px 125px 125px 125px 125px 125px 125px 135px;
+  grid-gap: 20px 30px;
+}
+.Cubos{
+  grid-column: 2;
+    grid-row: 1;
+    
+    
+}
+
+.TituloAlto{
+  grid-area:dos;
+  font-size:130%;
+  align-self: end;
+
+
+}
+.SubTitulo1:hover{
+  color: tomato;
+  text-decoration: underline;
+
+}
+.SubTitulo2:hover{
+  color: tomato;
+  text-decoration: underline;
+
+}
+.SubTitulo3:hover{
+  color: tomato;
+  text-decoration: underline;
+
+}
+.TituloAlto:hover{
+  color: tomato;
+
+}
+.SubTitulo1{
+  grid-area:tres;
+  font-size:90%;
+  align-self: end;
+
+
+}
+.SubTitulo2{
+  grid-area:cuatro;
+  font-size:90%;
+  align-self: end;
+
+
+}
+.SubTitulo3{
+  grid-area:cinco;
+  font-size:90%;
+  align-self: start;
+  justify-self: center;
+
+}
+.TituloBajo{
+  grid-column: 3/ span 4;
+  grid-row:2;
+  font-size:150%;
+  align-self:center; 
+
+
+}
+.Letritas {
+  grid-column: 2/span 4;
+  grid-row:3;
+  align-self: end;
+  font-family: 'Lobster', cursive;
+  font-weight:normal;
+
+}
+
+
+.letritasabajo{
+  grid-row:4;
+  grid-column: 3 / span 6;
+  font-size: 120%;
+  align-self: center;
+  justify-self: flex-start;
+  font-weight:normal;
+
+
+
+  
+}
+.letritasabajo2{
+  grid-row:4;
+  grid-column: 5 / span 6;
+  font-size: 150%;
+  align-self: center;
+  justify-self: flex-start;
+  font-weight:bold;
+  font-family: 'Lobster', cursive;
+
+
+}
+.letritasabajo2:hover{
+  color: tomato;
+  text-decoration: underline;
+
+}
+
+
+.Cubo1:hover{ 
+    transform: scale(1.1);
+    border-color: black;
+
+}
+.Cubo2:hover{ 
+  transform: scale(1.1);
+  border-color: black;
+
+}
+.Cubo3:hover{ 
+  transform: scale(1.1);
+  border-color: black;
+
+}
+.Cubo4:hover{ 
+  transform: scale(1.1);
+  border-color: black;
+
+}
+.Cubo5:hover{ 
+  transform: scale(1.1);
+  border-color: black;
+
+}
+.Cubo6:hover{ 
+  transform: scale(1.1);
+  border-color: black;
+
+}
+.Cubo7:hover{ 
+  transform: scale(1.1);
+  border-color: black;
+
+}
+.Cubo8:hover{ 
+  transform: scale(1.1);
+  border-color: black;
+
+}
+.Cubo9:hover{ 
+  transform: scale(1.1);
+  border-color: black;
+
+}
+.Cubo10:hover{ 
+  transform: scale(1.1);
+  border-color: black;
+
+}
+.Cubo11:hover{ 
+  transform: scale(1.1);
+  border-color: black;
+
+}
+.Cubo12:hover{ 
+  transform: scale(1.1);
+  border-color: black;
+
+}
+.Cubo13:hover{ 
+  transform: scale(1.1);
+  border-color: black;
+
+}
+.Cubo14:hover{ 
+  transform: scale(1.1);
+  border-color: black;
+
+}
+.Cubo15:hover{ 
+  transform: scale(1.1);
+  border-color: black;
+
+}
+.Cubo16:hover{ 
+  transform: scale(1.1);
+  border-color: black;
+
+}
+.Cubo17:hover{ 
+  transform: scale(1.1);
+  border-color: black;
+
+}
+.Cubo18:hover{ 
+  transform: scale(1.1);
+  border-color: black;
+
+}
+
+.Cubo1{
+  grid-column: 2;
+  
+
+}
+.Cubo2{
+  grid-column: 2;
+
+}
+.Cubo3{
+  grid-column: 2;
+
+}
+.Cubo4{
+  grid-row:3;
+  grid-column: 3;
+
+}
+.Cubo5{
+  grid-row:2;
+  grid-column: 3;
+
+}
+.Cubo6{
+  grid-row:1;
+  grid-column: 3;
+
+}
+.Cubo7{
+  grid-row:1;
+  grid-column: 4;
+
+}
+.Cubo8{
+  grid-row:2;
+  grid-column: 4;
+
+}
+.Cubo9{
+  grid-row:3;
+  grid-column: 4;
+
+}
+.Cubo10{
+  grid-row:1;
+  grid-column: 5;
+
+}
+.Cubo11{
+  grid-row:2;
+  grid-column: 5;
+
+}
+.Cubo12{
+  grid-row:3;
+  grid-column: 5;
+
+}
+.Cubo13{
+  grid-row:1;
+  grid-column: 6;
+
+}
+.Cubo14{
+  grid-row:2;
+  grid-column: 6;
+
+}
+.Cubo15{
+  grid-row:3;
+  grid-column: 6;
+
+}
+.Cubo16{
+  grid-row:1;
+  grid-column: 7;
+
+}
+.Cubo17{
+  grid-row:2;
+  grid-column: 7;
+
+}
+.Cubo18{
+  grid-row:3;
+  grid-column: 7;
+
+}
+
